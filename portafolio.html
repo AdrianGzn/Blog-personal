@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Adrián Blog's</title>
+</head>
+
+<body>
+	<script src="funciones.js"></script>
+	<header>
+		<img src="logo-removebg-preview.png">
+		<h1>Página de Adrián</h1>
+		<a href="index.html"><button class="boton" onmouseover="cambiarColor(this)" onmouseout="restaurarColor(this)">Inicio</button></a>
+		<a href="quien.html"><button class="boton" onmouseover="cambiarColor(this)" onmouseout="restaurarColor(this)">Quien soy</button></a>
+		<a href="portafolio.html"><button class="boton" onmouseover="cambiarColor(this)" onmouseout="restaurarColor(this)">Portafolio</button></a>
+		<a href="blog.html"><button class="boton" onmouseover="cambiarColor(this)" onmouseout="restaurarColor(this)">Blog</button></a>
+		<a href="contactos.html"><button class="boton" onmouseover="cambiarColor(this)" onmouseout="restaurarColor(this)">Contactos</button></a>
+	</header>
+
+	<div class="contenedor">
+		<h2>Portafolio</h2>
+		<p>Sergio Adrián Guzmán Pérez</p>
+		<p>Ingeniero en software</p>
+
+		<div class="carrusel">
+            <div class="elemento">
+				<p class="carru">Programas de consola en C</p>
+				<img src="C++.png" id="carru-img">
+			</div>
+            <div class="elemento">
+				<p class="carru">Página web</p>
+				<img src="html-removebg-preview.png" id="carru-img">
+			</div>
+            <div class="elemento">
+				<p class="carru">Pagina con base de datos</p>
+				<img src="sql-removebg-preview.png" id="carru-img">
+			</div>
+        </div>
+	</div>
+
+	<footer>
+		<p>Universidad Politécnica de Chiapas</p>
+		<p>Copyright © Sergio Adrián Guzmán Pérez</p>>
+	</footer>
+</body>
+</html>
